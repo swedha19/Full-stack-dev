@@ -1,21 +1,29 @@
-<htm>
+<html>
     <head>
         <title>
             URL SHORTNER
         </title>
     </head>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script>
+        function callshort()
+        {
+            let url=document.getElementById('long-url').value;
+            shortIt(url);
+        }
+    </script>
     
-    <body>
+    <body class="body-class">
         <div class="url-heading"> 
             URL SHORTNER <br>
         </div>
         <div class="url-input">
-            <input type="text" name="long-url-text" placeholder="Enter URL here" id="long-url">
+            <input class="input-box" type="text" name="long-url-text" placeholder="Enter URL here" id="long-url">
         </div>
         <div class="short-button"> 
-            <input type="button" value="SHORT IT">
+            <input class="clickable-button" type="button" value="SHORT IT" onclick="callshort()">
         </div>
         
     </body>
-</htm>
+</html>

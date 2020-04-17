@@ -1,4 +1,15 @@
 .url-heading{
-    font-size: 20px;
-    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.url-input{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.short-button{
+    text-align: center;
+}
+.input-box{
+    height: 20px;
 }
